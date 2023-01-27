@@ -1,0 +1,18 @@
+body {
+    background-color: yellow;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Caveat', cursive;
+}
+
+#Head{
+    font-family: 'Nanum Gothic Coding', monospace;
+}
+
+#Timer{
+    float: left;
+}
+
+#Sketch_to_be_drawn{
+    color: darkcyan;
+}
