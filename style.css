@@ -24,9 +24,9 @@ body {
 
 canvas 
   {
-    border:2px solid white;
+    border:5px solid white;
     border-radius:20px;
-    margin-top:135px;
+    margin-top:150px;
     box-shadow:5px 5px 5px grey;
     box-shadow: 1px 1px 38px #ffffff;
     animation-name: example;
@@ -35,8 +35,8 @@ canvas
 }
 @keyframes example {
 
-  from {box-shadow: 1px 1px 38px red;}
-  to {box-shadow: 1px 1px 38px green;}
+  from {box-shadow: 1px 1px 38px grey;}
+  to {box-shadow: 1px 1px 38px white;}
 
 }
 
