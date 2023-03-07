@@ -15,13 +15,13 @@ function draw() {
     if (drawn_sketch == sketch) {
         answer_holder = "set";
         score = score + 1;
-        document.getElementById("score").innerHTML = "Score: " + score;
+        document.getElementById("Score").innerHTML = "Score: " + score;
     }
 }
 
 function check_sketch() {
     timer_counter++;
-    document.getElementById("timer").innerHTML = "Timer: " + timer_counter;
+    document.getElementById("Timer").innerHTML = "Timer: " + timer_counter;
     if (timer_counter > 500) {
         timer_counter = 0;
         timer_check = "completed";
